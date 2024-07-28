@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>GPPVVS</title>
+<link rel="icon" type="image/x-icon" href="/images/logo.png">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Your other head elements -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+ 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Add Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+ $(document).ready(function () {
+    $('.has-sub > a').on('click', function (event) {
+      // Allow default behavior for the main link
+      if (!$(this).next('ul').length) {
+        return;
+      }
+
+      // Prevent default behavior for sub-menu links
+      event.preventDefault();
+
+      var submenu = $(this).next('ul');
+      submenu.toggleClass('open');
+    });
+  });
+
+</script>
+
+<style>
+
+.sub-menu {
+    display: none !important;
+}
+
+.sub-menu.open {
+    display: block !important;
+}
+
+
+/*Brand Icons*/
+    @media (max-width: 768px) {
+  .bxshd {
+    flex: 1 1 calc(50% - 20px) !important;
+    max-width: calc(50% - 20px) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .bxshd {
+    flex: 1 1 calc(100% - 20px) !important;
+    max-width: calc(100% - 20px) !important;
+  }
+}
+
+/*announcement*/
+
+  @media (max-width: 767px) {
+    .ticker-caption {
+      display: block !important;
+      width: 100% !important;
+      text-align: center !important;
+      margin-bottom: 10px !important;
+    }
+
+    .ticker-container {
+      width: 100% !important;
+      padding-left: 0 !important;
+    }
+
+    .col-md-12 {
+      flex-direction: column !important;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .header-area .main-nav .nav {
+      top: -19px !important;
+    }}
+</style>
+  </head>
+
+<body>
+
+  <!-- Sub Header -->
+   
+   <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>This is an GPPVVS <em>Website</em> template by Nextshala.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="fa fa-phone"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+              <li><a href="#"><i class="fa fa-map-marker"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+<header class="header-area header-sticky">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="main-nav">
+          <a href="index.html" class="logo">
+            <!-- Desktop View -->
+            <div class="desktop-view">
+              <div class="logo-wrapper">
+                <div class="left-logos">
+                  <img src="Images/logos/swamiji-1-final.png" alt="" class="collegeLogo">
+                  <img src="Images/logos/swamiji-2-final.png" alt="" class="collegeLogo">
+                </div>
+                <span id="collegename">G.P.Porwal Arts, Commerce & V.V.Salimath Science College</span>
+                <div class="right-logos">
+                  <img src="Images/logo.png" alt="" class="collegeLogo">
+                  <img src="Images/logos/GPP-50-years.png" alt="" class="collegeLogo">
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile View -->
+            <div class="mobile-view">
+              <div class="logo-wrapper">
+                <img src="Images/logos/swamiji-1-final.png" alt="" class="collegeLogo">
+                <img src="Images/logos/swamiji-2-final.png" alt="" class="collegeLogo">
+                <img src="Images/logo.png" alt="" class="collegeLogo">
+                <img src="Images/logos/GPP-50-years.png" alt="" class="collegeLogo">
+              </div>
+              <span id="collegename">G.P.Porwal Arts, Commerce & V.V.Salimath Science College</span>
+            </div>
+          </a>
+      <ul class="nav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li class="has-sub">
+          <a href="History.html">About</a>
+          <ul class="sub-menu">
+            <li><a href="History.html">History</a></li>
+            <li><a href="History.html">Vision</a></li>
+            <li><a href="History.html">Mission</a></li>
+            <li><a href="Trustees.html">Trustees</a></li>
+            <li><a href="#file">College Organogram</a></li>
+            <li><a href="BestPractices.html">Best Practices</a></li>
+            <li><a href="#File">Human Values</a></li>
+          </ul>
+        </li>
+      <li class="has-sub">
+        <a href="Departments.html">Academics</a>
+        <ul class="sub-menu">
+          <li><a href="Departments.html">Programmes</a></li>
+          <li><a href="Departments.html">Departments</a></li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#file">UG Regulations 2022-23</a></li>
+          <li><a href="#file">Annual Report 2021-22</a></li>
+          <li><a href="#file">Annual Report 2020-21</a></li>
+          <li><a href="Academic Calendar.html">Academic Calendar</a></li>
+        </ul>
+      </li>
+        <li class="has-sub">
+          <a href="NAAC4thCycle.html">NAAC</a>
+          <ul class="sub-menu">
+            <li><a href="#">NAAC Accrediation Certificate</a></li>
+            <li><a href="NAAC4thCycle.html">NAAC 4th Cycle</a></li>
+            <li><a href="DVV.html">DVV</a></li>
+            <li><a href="Journal Articles.html">Journal Articles</a></li>
+            <li><a href="Reports.html">Reports</a></li>
+            <li><a href="#file">RTI</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="IQAC.html">IQAC</a>
+          <ul class="sub-menu">
+            <li><a href="IQAC.html">IQAC</a></li>
+            <li><a href="#file">NIRF</a></li>
+            <li><a href="StudentSatisification_Survey.html">Student Satisfaction Survey Reports</a></li>
+            <li><a href="#empty">Minutes of Meetings</a></li>
+            <li><a href="#file">ART</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="Library.html">Infrastructure</a>
+          <ul class="sub-menu">
+            <li><a href="Library.html">Library</a></li>
+            <li><a href="#empty">Labs</a></li>
+            <li><a href="#empty">Function Hall</a></li>
+            <li><a href="#empty">Play Ground</a></li>
+            <li><a href="#empty">Indoor Stadium</a></li>
+            <li><a href="MultiGym.html">Multi-Gym</a></li>
+            <li><a href="#empty">Hostel for Women</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="Online_classes.html">Student Corner</a>
+          <ul class="sub-menu">
+            <li><a href="Online_classes.html">Online Classes</a></li>
+            <li><a href="Downloads.html">Downloads</a></li>
+            <li><a href="#empty">Syllabus</a></li>
+            <li><a href="#file">Scholarships</a></li>
+            <li><a href="#file">Cells</a></li>
+            <li><a href="Facilities.html">Facilities</a></li>
+            <li><a href="#file">Advance/Slow Learners 2021-22</a></li>
+            <li><a href="#file">Advance/Slow Learners 2020-21</a></li>
+            <li><a href="#file">Experience Learning 2021-22</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="#">Examination</a>
+          <ul class="sub-menu">
+            <li><a href="#file">Result Analysis 2022-23</a></li>
+            <li><a href="#file">Internal Exam 2021-22</a></li>
+            <li><a href="#file">External Exam 2021-22</a></li>
+            <li><a href="#file">Internal Exam 2020-21</a></li>
+            <li><a href="#file">External Exam 2020-21</a></li>
+          </ul>
+        </li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+
+      <a class='menu-trigger'>
+        <span>Menu</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+
+
+
+
+
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="assets/images/course-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="caption">
+              <h6>Hello Students</h6>
+              <h2>GPPVVS
+              College</h2>
+              <p>Lorem ipsum dolor molestias amet ut reprehenderit minima doloremque modi quod, tempora ratione molestias amet ut reprehenderit minima doloremque modi quod, tempora ratione.<a rel="nofollow" href="" target="_blank">minima doloremque</a>.</p>
+              <div class="main-button-red">
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+              </div>
+          </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- ***** Main Banner Area End ***** -->
+
+ <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+          
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-01.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Best Education</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-02.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Best Teachers</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-03.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Best Students</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-02.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Online Meeting</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <img src="assets/images/service-icon-03.png" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Best Networking</h4>
+                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+
+ <!--Upcoming events-->
+  <section class="upcoming-meetings" id="meetings"   >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12" style="margin-top: 35px;">
+          <div class="section-heading">
+            <h2>Upcoming Events</h2>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="categories">
+            <h4>Meeting Catgories</h4>
+            <ul>
+              <li><a href="#">Sed tempus enim leo</a></li>
+              <li><a href="#">Aenean molestie quis</a></li>
+              <li><a href="#">Cras et metus vestibulum</a></li>
+              <li><a href="#">Nam et condimentum</a></li>
+              <li><a href="#">Phasellus nec sapien</a></li>
+            </ul>
+            <div class="main-button-red">
+              <a href="meetings.html">All Upcoming Meetings</a>
+            </div>
+          </div>
+        </div> 
+        
+       
+        
+
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>Sports</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6>August <span>10</span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Sports Events</h4></a>
+                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                    <span>Exams</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg" alt="Student Training"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6>Nov <span>30</span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Exams Time Table</h4></a>
+                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--Announcement scroll-->
+<div class="announcement" style="background-color: #f8f9fa; padding: 15px 0; border-bottom: 2px solid #ddd;">
+  <div class="container" style="width: 100%; padding: 0 15px; margin: 0 auto;">
+    <div class="row" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+      <div class="col-md-12" style="text-align: center; display: flex; align-items: center; justify-content: center;">
+        <div class="ticker-caption"
+          style="background-color: #007bff; color: #fff; padding: 10px 15px; display: inline-block; border-radius: 5px; font-size: 18px; font-weight: bold; margin-right: 10px;">
+          Announcement
+        </div>
+        <span style="animation: blinker 1.5s linear infinite; font-size: 24px;">📢</span>
+        <div class="ticker-container" style="display: inline-block; width: calc(100% - 170px); padding-left: 10px;">
+          <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"
+            style="display: inline-block; width: 100%; padding: 10px; border: 2px solid #007bff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); background-color: #fff;">
+            <p class="marquee-text" style="display: inline; font-size: 16px; color: #333; margin: 0; line-height: 1.5;">
+              <span style="display: inline-block; margin-right: 10px;">
+                <img src="" alt="" style="vertical-align: middle; height: 24px;">
+              </span>
+              Will Be Updated Soon
+              &nbsp;&nbsp;&nbsp;<a href="" rel="nofollow" target="_blank"
+                style="color: #007bff; text-decoration: underline;">More details . . .</a>  | 
+              <span style="display: inline-block; margin-right: 10px;">
+                <img src="" alt="" style="vertical-align: middle; height: 24px;">
+              </span>
+              Will Be Updated Soon
+              &nbsp;&nbsp;&nbsp;<a href="" rel="nofollow" target="_blank"
+                style="color: #007bff; text-decoration: underline;">More details . . .</a>  | 
+              <span style="display: inline-block; margin-right: 10px;">
+                <img src="" alt="" style="vertical-align: middle; height: 24px;">
+              </span>
+              Will Be Updated Soon
+              &nbsp;&nbsp;&nbsp;<a href="" rel="nofollow" target="_blank"
+                style="color: #007bff; text-decoration: underline;">More details . . .</a>  | 
+            </p>
+          </marquee>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Brands and icons-->
+<section id="yt_spotlight2" class="block" style="margin-bottom: 0 !important; text-align: center;">
+  <div class="container" style="width: 100%; padding: 0 15px; margin: 0 auto;">
+    <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap; margin: 0 auto;">
+      <div id="top3" class="col-sm-12" style="width: 100%; text-align: center;">
+        <div class="module categories-ii" style="padding: 0; margin: 0;">
+          <div class="modcontent clearfix" style="clear: both;">
+            <div id="category_16297137721453353795" class="sj_category theme4" style="overflow: hidden;">
+              <ul class="line items-row1"
+                style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center;">
+                <li class="bxshd"
+                  style="margin: 10px; text-align: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px); border: 2px solid black; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                  <a href="https://rcub.ac.in/" target="_blank" style="text-decoration: none; color: #000;">
+                    <img src="Images/logos/rcu-logo.jpg" alt="" hspace="3"
+                      style="width: 50px; height: 50px; display: block; margin: 0 auto; border-radius: 50%;">
+                    <br>RCU, Belagavi
+                  </a>
+                </li>
+                <li class="bxshd"
+                  style="margin: 10px; text-align: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px); border: 2px solid black; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                  <a href="https://uucms.karnataka.gov.in/" target="_blank" style="text-decoration: none; color: #000;">
+                    <img src="Images/logos/uucms-logo.png" alt="" hspace="3"
+                      style="width: 50px; height: 50px; display: block; margin: 0 auto; border-radius: 50%;">
+                    <br>UUCMS
+                  </a>
+                </li>
+                <li class="bxshd"
+                  style="margin: 10px; text-align: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px); border: 2px solid black; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                  <a href="#" target="_blank" style="text-decoration: none; color: #000;">
+                    <img src="Images/logos/nep-logo.png" alt="" hspace="3"
+                      style="width: 50px; height: 50px; display: block; margin: 0 auto; border-radius: 50%;">
+                    <br>NEP
+                  </a>
+                </li>
+                <li class="bxshd"
+                  style="margin: 10px; text-align: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px); border: 2px solid black; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                  <a href="https://ssp.postmatric.karnataka.gov.in/" target="_blank"
+                    style="text-decoration: none; color: #000;">
+                    <img src="Images/logos/ssp-logo.png" alt="" hspace="3"
+                      style="width: 50px; height: 50px; display: block; margin: 0 auto; border-radius: 50%;">
+                    <br>SSP
+                  </a>
+                </li>
+                <li class="bxshd"
+                  style="margin: 10px; text-align: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px); border: 2px solid black; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                  <a href="http://naac.gov.in/index.php/en/" target="_blank"
+                    style="text-decoration: none; color: #000;">
+                    <img src="Images/logos/naac-logo.png" alt="" hspace="3"
+                      style="width: 50px; height: 50px; display: block; margin: 0 auto; border-radius: 50%;">
+                    <br>NAAC
+                  </a>
+                </li>
+                <li class="bxshd"
+                  style="margin: 10px; text-align: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px); border: 2px solid black; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                  <a href="https://hed.karnataka.gov.in/english" target="_blank"
+                    style="text-decoration: none; color: #000;">
+                    <img src="Images/logos/kshec-logo.png" alt="" hspace="3"
+                      style="width: 50px; height: 50px; display: block; margin: 0 auto; border-radius: 50%;">
+                    <br>KSHEC
+                  </a>
+                </li>
+                <li class="bxshd"
+                  style="margin: 10px; text-align: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px); border: 2px solid black; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                  <a href="https://nad.gov.in/" target="_blank" style="text-decoration: none; color: #000;">
+                    <img src="Images/logos/nad-logo.png" alt="" hspace="3"
+                      style="width: 50px; height: 50px; display: block; margin: 0 auto; border-radius: 50%;">
+                    <br>NAD
+                  </a>
+                </li>
+                <li class="bxshd"
+                  style="margin: 10px; text-align: center; flex: 1 1 calc(25% - 20px); max-width: calc(25% - 20px); border: 2px solid black; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;">
+                  <a href="https://www.digilocker.gov.in/" target="_blank" style="text-decoration: none; color: #000;">
+                    <img src="Images/logos/digilocker-logo.png" alt="" hspace="3"
+                      style="width: 50px; height: 50px; display: block; margin: 0 auto; border-radius: 50%;">
+                    <br>DigiLocker
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  document.querySelectorAll('.bxshd').forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      item.style.transform = 'scale(1.1)';
+      item.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.5)';
+    });
+    item.addEventListener('mouseleave', () => {
+      item.style.transform = 'scale(1)';
+      item.style.boxShadow = 'none';
+    });
+  });
+</script>
+
+
+ <!--About Us--> 
+<section class="apply-now" id="apply" style="margin-bottom: -48px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 align-self-center">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="item">
+              <h3>APPLY FOR BACHELOR DEGREE</h3>
+              <p>You are allowed to use this edu meeting CSS template for your school or university or business. You can
+                feel free to modify or edit this layout.</p>
+              <div class="main-button-red">
+                <div class="scroll-to-section"><a href="#contact">Contact Us</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="item">
+              <h3>APPLY FOR BACHELOR DEGREE</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas atque at ut facilis hic doloremque quis
+                vel! Sequi ex velit alias porro doloribus sit odit cupiditate eligendi, enim reprehenderit. Voluptatibus
+                ipsum debitis quam, veniam eos sunt.</p>
+              <div class="main-button-yellow">
+                <div class="scroll-to-section"><a href="#contact">Whatspp Us</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="accordions is-first-expanded">
+          <article class="accordion open">
+            <div class="accordion-head">
+              <span>About GPPVVS</span>
+              <span class="icon">
+                <i class="icon fa fa-chevron-right"></i>
+              </span>
+            </div>
+            <div class="accordion-body">
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eius soluta praesentium distinctio
+                  incidunt a, veniam, delectus itaque, facere quisquam architecto? Quisquam mollitia similique debitis
+                  nulla, enim voluptate, accusamus consequatur aspernatur, labore itaque ipsam illum eaque!</p>
+              </div>
+            </div>
+          </article>
+          <article class="accordion">
+            <div class="accordion-head">
+              <span>Education</span>
+              <span class="icon">
+                <i class="icon fa fa-chevron-right"></i>
+              </span>
+            </div>
+            <div class="accordion-body">
+              <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat accusamus veniam vitae deleniti
+                  delectus sed quisquam eius eaque dolorem culpa, esse dolor ex quaerat cupiditate quo. Illo fugiat
+                  exercitationem, explicabo laboriosam dolorem quo quaerat commodi pariatur.<br><br>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio aut officia error, quasi mollitia ad
+                  illo amet nostrum asperiores ullam. Aliquid doloribus laudantium eius unde officiis, quam accusantium
+                  provident eligendi explicabo ut neque? Molestiae aperiam quo vel laudantium?</p>
+              </div>
+            </div>
+          </article>
+          <article class="accordion">
+            <div class="accordion-head">
+              <span>Teaching</span>
+              <span class="icon">
+                <i class="icon fa fa-chevron-right"></i>
+              </span>
+            </div>
+            <div class="accordion-body">
+              <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat accusamus veniam vitae deleniti
+                  delectus sed
+                  quisquam eius eaque dolorem culpa, esse dolor ex quaerat cupiditate quo. Illo fugiat exercitationem,
+                  explicabo
+                  laboriosam dolorem quo quaerat commodi pariatur.<br><br>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio aut officia error, quasi mollitia ad
+                  illo amet nostrum
+                  asperiores ullam. Aliquid doloribus laudantium eius unde officiis, quam accusantium provident eligendi
+                  explicabo ut
+                  neque? Molestiae aperiam quo vel laudantium?</p>
+              </div>
+            </div>
+          </article>
+          <article class="accordion last-accordion">
+            <div class="accordion-head">
+              <span>Sports</span>
+              <span class="icon">
+                <i class="icon fa fa-chevron-right"></i>
+              </span>
+            </div>
+            <div class="accordion-body">
+              <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat accusamus veniam vitae deleniti
+                  delectus sed
+                  quisquam eius eaque dolorem culpa, esse dolor ex quaerat cupiditate quo. Illo fugiat exercitationem,
+                  explicabo
+                  laboriosam dolorem quo quaerat commodi pariatur.<br><br>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio aut officia error, quasi mollitia ad
+                  illo amet nostrum
+                  asperiores ullam. Aliquid doloribus laudantium eius unde officiis, quam accusantium provident eligendi
+                  explicabo ut
+                  neque? Molestiae aperiam quo vel laudantium?</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  // JavaScript to toggle accordion open/close
+  document.querySelectorAll('.accordion-head').forEach(item => {
+    item.addEventListener('click', () => {
+      const accordionItem = item.parentElement; // Get parent .accordion element
+      accordionItem.classList.toggle('open'); // Toggle the .open class on .accordion
+    });
+  });
+</script>
+
+
+
+
+<!--  -->
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6" style=" text-align: left;">
+            <h4 class="QuickLink">Quick Link</h4>
+    
+            <div>
+              <p class="icon-text" style="line-height: 40px;"><i class="fas fa-chevron-right"></i> Home</p>
+              <p class="icon-text" style="line-height: 40px;"><i class="fas fa-chevron-right"></i> About Us</p>
+              <p class="icon-text" style="line-height: 40px;"><i class="fas fa-chevron-right"></i> Contact Us</p>
+              <p class="icon-text" style="line-height: 40px;"><i class="fas fa-chevron-right"></i> Gallery</p>
+            </div>
+    
+          </div>
+          <div class="col-lg-3 col-md-6" style=" text-align: left;">
+            <h4 class="text-white mb-3">Contact</h4>
+            <div>
+              <p class="mb-2"><i class="fa fa-map-marker me-3"></i>Address</p>
+              <p class="mb-2"><i class="fa fa-phone me-3"></i>0836 - 2355110/111</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>xyz@gmail.com</p>
+            </div>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube-square"></i></a>
+              <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Gallery</h4>
+            <div class="row g-2 pt-2">
+              <div class="col-6 col-md-4">
+                <div class="img-container" style="height: 90px; overflow: hidden;">
+                  <img class="img-fluid bg-light p-1" src="Images/clg.png" alt="" style="height: 100%; width: auto;">
+                </div>
+              </div>
+              <div class="col-6 col-md-4">
+                <div class="img-container" style="height: 90px; overflow: hidden;">
+                  <img class="img-fluid bg-light p-1" src="Images/clg.png" alt="" style="height: 100%; width: auto;">
+                </div>
+              </div>
+              <div class="col-6 col-md-4">
+                <div class="img-container" style="height: 90px; overflow: hidden;">
+                  <img class="img-fluid bg-light p-1" src="Images/clg.png" alt="" style="height: 100%; width: auto;">
+                </div>
+              </div>
+              <div class="col-6 col-md-4">
+                <div class="img-container" style="height: 90px; overflow: hidden;">
+                  <img class="img-fluid bg-light p-1" src="Images/clg.png" alt="" style="height: 100%; width: auto;">
+                </div>
+              </div>
+              <div class="col-6 col-md-4">
+                <div class="img-container" style="height: 90px; overflow: hidden;">
+                  <img class="img-fluid bg-light p-1" src="Images/clg.png" alt="" style="height: 100%; width: auto;">
+                </div>
+              </div>
+              <div class="col-6 col-md-4">
+                <div class="img-container" style="height: 90px; overflow: hidden;">
+                  <img class="img-fluid bg-light p-1" src="Images/clg.png" alt="" style="height: 100%; width: auto;">
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Contact Us for More Information</h4>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px;">
+    
+              <button type="button" class="btn btn-primary py-2  top-0 end-0 mt-2 me-2">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              <a class="border-bottom" href="#"></a> All Right Reserved.
+    
+          
+              Designed By <a class="border-bottom" href="www.nextshala.com">NextShala Edutech</a>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="About.html">About Us</a>
+                <a href="ContactUs.html">Help</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+
+
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+
+</html>
